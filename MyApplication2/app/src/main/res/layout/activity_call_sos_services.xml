@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".call_sos_services">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button2_police"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/police_text" />
+
+        <Button
+            android:id="@+id/button5_ambulance"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ambulance_text"
+            android:layout_below="@+id/button2_police"/>
+
+        <Button
+            android:id="@+id/button6_firebrigade"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/firebrigade_text"
+            android:layout_below="@id/button5_ambulance"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

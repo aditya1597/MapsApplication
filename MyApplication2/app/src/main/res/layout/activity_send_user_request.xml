@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".send_user_request">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editText_userreq"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/request_hint"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button2_userreq"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:text="@string/send_request"
+            android:layout_below="@+id/editText_userreq"/>
+
+        <Button
+            android:id="@+id/button5_userreq"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:text="@string/track"
+            android:layout_below="@id/button2_userreq"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
