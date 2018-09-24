@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:layout_column="1"
+    tools:layout_editor_absoluteY="25dp"
+    tools:accessibilityPaneTitle="@string/Login">
+
+    <RelativeLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/username_hint"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/pasword_hint"
+            android:inputType="numberPassword"
+            android:layout_below="@+id/username"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_marginLeft="135dp"
+            android:text="@string/Login" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:layout_marginLeft="105dp"
+            android:background="?android:attr/colorBackground"
+            android:text="@string/register" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
