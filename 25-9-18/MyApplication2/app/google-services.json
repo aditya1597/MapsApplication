@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "859787657981",
+    "firebase_url": "https://codebreakers-db989.firebaseio.com",
+    "project_id": "codebreakers-db989",
+    "storage_bucket": "codebreakers-db989.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859787657981:android:12ca881c034701ab",
+        "android_client_info": {
+          "package_name": "com.example.aditya.mapsapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859787657981-cjmti94i5euq0i2vg4p0brqp9b65i7qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aditya.mapsapplication",
+            "certificate_hash": "94157f0f25ac352dbb0b23009889a0224d768f19"
+          }
+        },
+        {
+          "client_id": "859787657981-frc8uti24en0ui834m9eh94386c9cn76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aditya.mapsapplication",
+            "certificate_hash": "270c046dbe0513ee9944d13b3db6763dc0016fb1"
+          }
+        },
+        {
+          "client_id": "859787657981-lr9gcmc738a5bg696ckbqdt63if2j9gs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDOv1gkxueAZM24BtjonE6beLqsT3rQrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859787657981-lr9gcmc738a5bg696ckbqdt63if2j9gs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859787657981:android:677111b16400dc4b",
+        "android_client_info": {
+          "package_name": "com.example.aditya.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859787657981-lr9gcmc738a5bg696ckbqdt63if2j9gs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDOv1gkxueAZM24BtjonE6beLqsT3rQrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859787657981:android:a8aa213f85f4dda1",
+        "android_client_info": {
+          "package_name": "com.example.inchau00.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859787657981-5jbfremso8kcqvvbv0mjl3dccul4nor7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inchau00.myapplication",
+            "certificate_hash": "94157f0f25ac352dbb0b23009889a0224d768f19"
+          }
+        },
+        {
+          "client_id": "859787657981-lr9gcmc738a5bg696ckbqdt63if2j9gs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDOv1gkxueAZM24BtjonE6beLqsT3rQrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859787657981-lr9gcmc738a5bg696ckbqdt63if2j9gs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
